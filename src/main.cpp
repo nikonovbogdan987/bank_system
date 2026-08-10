@@ -549,7 +549,7 @@ int main(int, char**)
                 if (account_has_cr) {
                     ImGui::SameLine();
                     ImGui::PushStyleColor(ImGuiCol_Text, ImVec4(1.0f, 0.0f, 0.0f, 1.0f));
-                    ImGui::Text("Account with this has created", &account_has_cr);
+                    ImGui::Text("Account with this phone number has created", &account_has_cr);
                     ImGui::PopStyleColor(1);
                 }
                 if (sign_sys_err) {
