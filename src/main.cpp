@@ -354,7 +354,7 @@ int main(int, char**)
                 center_y += (window_size.y - element_height) * 0.25f * 0.25f;
                 ImGui::SetCursorPos(ImVec2(center_x + 0.5f*150.0f, center_y));
                 if (ImGui::Button("Sign up", ImVec2(150.0f, 33.0f))) {
-                    login = ""; password = ""; phone_number = "+7";
+                    login = ""; password = ""; phone_number = "+7"; name = ""; surname = ""; balance = 0.0f;
                     error_account_wrong_data = false;
                     error_account_not_found = false;
                     log_in_window_op = false;
