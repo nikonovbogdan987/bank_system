@@ -428,5 +428,12 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
-build/
-.cmake/
+# Visual Studio
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# CMake
+/build/
+/.vs/
